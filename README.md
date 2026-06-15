@@ -1,15 +1,17 @@
+# Blood-Risk-Prediction-System-Using-ANN
 
-# Blood-Risk-Prediction-System
+## Overview
 
-A machine learning project that analyzes Complete Blood Count (CBC) parameters and predicts potential health risk levels based on blood test results.
+This project uses an Artificial Neural Network (ANN) to analyze Complete Blood Count (CBC) parameters and predict potential health risk levels based on blood test results.
 
 ## Features
 
 * Blood parameter analysis
-* Risk prediction using Machine Learning
+* Health risk prediction using ANN
 * CBC-based health assessment
-* Identification of abnormal blood markers
-* Explanation of prediction results
+* Detection of abnormal blood markers
+* Risk explanation based on blood parameters
+* Interactive user input system
 
 ## Input Parameters
 
@@ -37,12 +39,16 @@ Model Score: 0.02
 ## Technologies Used
 
 * Python
+* TensorFlow / Keras (ANN)
 * Pandas
 * NumPy
 * Scikit-learn
 * Pickle (.pkl)
 
-## Note
+## Model
+
+An Artificial Neural Network (ANN) was trained on CBC parameters to classify patient health risk levels and assist in blood health analysis.
+
+## Disclaimer
 
 This project is intended for educational and research purposes only and should not be used as a substitute for professional medical diagnosis.
-
